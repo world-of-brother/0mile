@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>0MILe DeSIGN LABO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">0MILe DeSIGN LABO</div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="works.html">Works</a>
+      <a href="services.html">Services</a>
+      <a href="sns.html">SNS</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to 0MILe DeSIGN LABO</h1>
+  </main>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>About</h1>
+    <p>This is the About page.</p>
+  </main>
+</body>
+</html>
+
+<!-- works.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Works</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Works</h1>
+    <p>This is the Works page.</p>
+  </main>
+</body>
+</html>
+
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Services</h1>
+    <p>This is the Services page.</p>
+  </main>
+</body>
+</html>
+
+<!-- sns.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SNS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SNS</h1>
+    <p>This is the SNS page.</p>
+  </main>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('earth_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Contact</h1>
+    <p>This is the Contact page.</p>
+  </main>
+</body>
+</html>
