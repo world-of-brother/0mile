@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  background-color: #f5f0e1;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gallery-tabs button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#gallery-content img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.character-card {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.character-card img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}

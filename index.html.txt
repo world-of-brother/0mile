@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界のアニキ - 0mile DeSIGN LABO</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>0mile DeSIGN LABO</h1>
+    <nav>
+      <ul>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#characters">CHARACTERS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#sns">SNS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ヒーローアニメーション -->
+    <section id="hero">
+      <h2>ようこそ！</h2>
+      <p>0MILe DeSIGN LABOへ！</p>
+    </section>
+
+    <!-- プロフィール -->
+    <section id="profile">
+      <h2>PROFILE</h2>
+      <p>
+        <strong>世界のアニキ</strong><br>
+        デザイナー<br>
+        バナー、広告デザイン、SNSのサムネイル、アイコン、企業やお店のロゴ、チラシなどデザインならどんな物でも承ります。<br>
+        まずは一度ご相談ください。
+      </p>
+    </section>
+
+    <!-- ギャラリー -->
+    <section id="gallery">
+      <h2>GALLERY</h2>
+      <div class="gallery-tabs">
+        <button onclick="showGallery('simple')">シンプル</button>
+        <button onclick="showGallery('pop')">ポップ</button>
+        <button onclick="showGallery('business')">ビジネス</button>
+        <button onclick="showGallery('japanese')">和風</button>
+        <button onclick="showGallery('logo')">ロゴ</button>
+      </div>
+      <div id="gallery-content"></div>
+    </section>
+
+    <!-- オリジナルキャラクター -->
+    <section id="characters">
+      <h2>ORIGINAL CHARACTERS</h2>
+      <div class="character-card">
+        <img src="images/hidetoshi.png" alt="ヒデトシくん">
+        <p>ヒデトシくん</p>
+      </div>
+      <!-- 他のキャラクターも同様に配置 -->
+    </section>
+
+    <!-- コンタクト -->
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <p>こちらからお気軽にお問い合わせください。</p>
+      <!-- ここにGoogleフォームなど埋め込み可 -->
+    </section>
+
+    <!-- SNS -->
+    <section id="sns">
+      <h2>SNS</h2>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Twitter</a>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

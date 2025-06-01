@@ -1,0 +1,18 @@
+const galleryData = {
+  simple: ['simple1.jpg', 'simple2.jpg', 'simple3.jpg', 'simple4.jpg', 'simple5.jpg'],
+  pop: ['pop1.jpg', 'pop2.jpg', 'pop3.jpg', 'pop4.jpg', 'pop5.jpg'],
+  business: ['business1.jpg', 'business2.jpg', 'business3.jpg', 'business4.jpg', 'business5.jpg'],
+  japanese: ['japanese1.jpg', 'japanese2.jpg', 'japanese3.jpg', 'japanese4.jpg', 'japanese5.jpg'],
+  logo: ['logo1.jpg', 'logo2.jpg', 'logo3.jpg', 'logo4.jpg', 'logo5.jpg']
+};
+
+function showGallery(category) {
+  const container = document.getElementById('gallery-content');
+  container.innerHTML = '';
+  galleryData[category].forEach(image => {
+    const img = document.createElement('img');
+    img.src = `images/${image}`;
+    img.alt = category;
+    container.appendChild(img);
+  });
+}
